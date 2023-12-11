@@ -1,0 +1,13 @@
+/* styles/ToastNotification.css */
+.show {
+  display: none;
+}
+.translate-middle-x {
+  transform: translate(-50%);
+}
+.text-white {
+  color: white !important;
+}
+.text-gray-dark {
+  color: gray !important;
+}

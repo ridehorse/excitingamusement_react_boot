@@ -1,0 +1,17 @@
+.editor__container {
+    min-height: 400px;
+    /* 원하는 높이로 설정 */
+}
+
+
+.document-editor {
+    border: 1px solid var(--ck-color-base-border);
+    border-radius: var(--ck-border-radius);
+
+    /* Set vertical boundaries for the document editor. */
+    max-height: 700px;
+
+    /* This element is a flex container for easier rendering. */
+    display: flex;
+    flex-flow: column nowrap;
+}

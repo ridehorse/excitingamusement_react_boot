@@ -1,0 +1,74 @@
+ul.tabs {
+	float: left;
+	list-style: none;
+}
+
+ul.tabs li {
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.search-wrap .btn-search {
+	background: #555;
+	color: #fff;
+	height: 40px;
+}
+
+#boardList td a {
+	text-decoration: none;
+	color: black;
+	background-color: #fdfafa;
+
+} 
+
+
+.board-table {
+	font-size: 15px;
+}
+
+.menu_select {
+	position: relative;
+	bottom: 10px;
+	margin: auto;
+	width: auto;
+	float: right;
+	margin: 0 10px;
+}
+
+.notice {
+	text-align: center;
+}
+
+.container,
+.notice {
+	max-width: 1500px;
+	margin: auto;
+}
+
+.pagination-button {
+	display: block;
+	margin: 0 3px;
+	float: left;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: #fff;
+	font-size: 13px;
+	color: #999999;
+	text-decoration: none;
+}
+
+.selectField {
+	width: 20%;
+	height: 40px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+}

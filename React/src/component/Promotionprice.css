@@ -1,0 +1,64 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #dcdcdc;
+  padding: 50px;
+}
+
+.promotion-title {
+  font-weight: bold;
+  font-size: 36px;
+  color: #bd0000;
+  text-shadow: 1px 1px #f2f2f2;
+  margin-bottom: 30px;
+}
+
+.promotion-desc {
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 50px;
+}
+
+.ticket-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #bd0000;
+}
+
+.learn-more-btn {
+  background-color: #bd0000;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.learn-more-btn:hover {
+  background-color: #9c0000;
+  cursor: pointer;
+}
+
+.promotion-img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  /* padding-bottom: 80px; */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}

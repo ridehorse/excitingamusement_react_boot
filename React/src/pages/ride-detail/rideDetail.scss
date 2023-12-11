@@ -1,0 +1,38 @@
+.ride-detail-wrapper{
+    // background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 22px 70px 4px;
+    display: flex;
+
+    .ride-tot-img{
+        border-radius: 10px;
+        width: 100%;
+        background-size: cover;
+        height: 85lvh;
+        opacity: 0.4;
+    }
+    .ride-main-img{
+        width: 700px;
+        height: 50lvh;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .ride-list-wrapper{
+        margin-top: 8%;
+        position: absolute;
+        display: flex;
+        top: 10px;
+        width: 60%;
+        height: 50lvh;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        overflow: hidden;
+
+        left: 50%;
+        transform: translate(-50%, 17%);
+
+        .ride-second-wrapper{
+            margin: auto;
+        }
+    }
+}

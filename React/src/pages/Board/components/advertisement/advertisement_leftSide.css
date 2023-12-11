@@ -1,0 +1,35 @@
+.aside-wrap{
+  position: absolute;
+width:120px;
+top:0px;
+left: 50px;
+bottom:0px;
+height:100%;
+float:left;
+
+}
+
+.aside-inner{
+position:sticky;
+width:120px;
+float:left;
+height:500px;
+
+
+}
+
+.top-left {
+top: 150px;
+left: 150px;
+}
+
+.bottom-right {
+bottom: 10px;
+}
+
+#advertisement1{
+
+width:150px;
+height:500px;
+
+}

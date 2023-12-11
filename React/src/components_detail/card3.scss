@@ -1,0 +1,117 @@
+.card-wrapper-card3 {
+  height: 330px;
+  flex-shrink: 0;
+  border: 1px solid lightgray;
+  margin: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: width 1s, height 1s, box-shadow 1s;
+  cursor: pointer;
+
+  //rides list
+  .card-body-img {
+    width: 100%;
+    height: 200px;
+    img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      width: 100%;
+      height: 200px;
+    }
+  }
+  .card-body-text {
+    flex-grow: 1;
+    border-top: 0.5px solid black;
+    height: 60px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .card-body-text-title {
+      height: 50px;
+      line-height: 50px;
+      color: darkslategray;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .card-footer {
+    border-top: 0.5px solid black;
+    height: 80px;
+    color: #282c34;
+    justify-content: space-between;
+
+    .card-body-text-content{
+      margin-top: 8%;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+
+  //fac list 적용s
+  .card-body-fac-img{
+    width: 100%;
+    height: 200px;
+    img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .card-body-fac-text{
+    flex-grow: 1;
+    border-top: 0.5px solid black;
+    height: 60px;
+    .card-body-text-fac-title{
+      margin-top: 10%;
+      color: darkslategray;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .card-fac-footer{
+    align-self: center;
+    .btn-wrapper-fac{
+      margin-bottom: 30%;
+    }
+  }
+}
+
+.card-detail-wrapper{
+  width: 100%;
+  animation: detail-show 0.8s;
+
+  .card-main-img{
+      position: relative;
+      top: 10px;
+      width: 200px;
+      height: 200px;
+      margin: auto;
+  }
+  .btn-wrapper{
+    .btn{
+      margin-top: 8%;
+      margin-left: 46%;
+    }
+  }
+
+  @keyframes detail-show {
+      from {
+        opacity: 0;
+        margin-top: -20px;
+      }
+      to {
+        opacity: 1;
+        margin-top: 0;
+      }
+    }
+}

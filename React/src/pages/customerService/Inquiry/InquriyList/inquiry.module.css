@@ -1,0 +1,144 @@
+.notice {
+	margin: 0 0 30px 0;
+	width: 100%;
+}
+
+ul.tabs {
+	float: left;
+	list-style: none;
+}
+
+ul.tabs li {
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.btn_search {
+	background: #555;
+	color: #fff;
+	height: 40px;
+}
+
+.boardList td a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu_select {
+	margin: 0 0 30px 100px;
+	width: 150px;
+}
+
+.menu_select .text {
+	width: 150px;
+
+}
+
+.menu_select span {
+	float: left;
+}
+
+.menu_select .text img,
+.menu_select span img {
+	width: 20px;
+	margin: 0 5px;
+}
+
+.menu_select .text span {
+	position: relative;
+	top: 3px;
+}
+
+.menu_select .option_list {
+	position: relative;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	max-height: 0;
+	left: 5px;
+}
+
+.menu_select .option_list a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu_select.active .option_list {
+	max-height: none;
+}
+
+.board_table tbody tr td a {
+	text-decoration: none;
+	color: black;
+}
+
+.banner {
+	text-align: center;
+	margin: 0 0 100px 0;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.board_table {
+	font-size: 16px;
+}
+
+.page_nation {
+	display: inline-block;
+}
+
+.btn_search {
+	background: #555;
+	color: #fff;
+	height: 40px;
+}
+
+.search_window {
+	padding: 15px 0;
+	background-color: #f9f7f9;
+	margin-left: 100;
+}
+
+.search_wrap {
+	position: relative;
+	/*   padding-right: 124px; */
+	margin: 0 auto;
+	width: 564px;
+}
+
+.search_wrap input {
+	height: 40px;
+	width: 80%;
+	font-size: 14px;
+	padding: 7px 14px;
+	border: 1px solid #ccc;
+}
+
+.select {
+	position: relative;
+	float: left;
+	width: 20%;
+}
+
+.page_nation a {
+	display: inline-block;
+	margin: 50px 3px;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: #fff;
+	font-size: 13px;
+	color: #999999;
+	text-decoration: none;
+
+}

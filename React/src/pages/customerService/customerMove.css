@@ -1,0 +1,86 @@
+body {
+  width: 100%;
+}
+
+.customermove {
+  margin: auto;
+  width: auto;
+  left: 300;
+}
+
+.customermove .text {
+  width: auto;
+  cursor: pointer;
+}
+
+.customermove span {
+  float: left;
+}
+
+.customermove .text img,
+.customermove span img {
+  width: 20px;
+  margin: 0 5px;
+}
+
+.customermove .text span {
+  position: relative;
+  top: 3px;
+}
+
+.customermove .option-list {
+  position: relative;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  left: 5px;
+  cursor: pointer;
+}
+
+.customermove .option-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.customermove.active .option-list {
+  max-height: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  /* margin: 0 0 0 0;
+    padding: 0 15px 0 0;
+    border: 0;
+    padding-left: 30px */
+}
+
+.faq_page_nation a {
+  display: inline-block;
+  margin: 0 3px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 13px;
+  color: #999999;
+  text-decoration: none;
+}
+
+.faq_page_nation .page-item a:hover,
+.faq_page_nation .page-item a:focus {
+  text-decoration: underline;
+  color: #3333ff;
+}
+
+.faq_page_nation .page-item a {
+  border: 1px solid #e6e6e6;
+  color: 3399FF;
+}

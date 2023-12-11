@@ -1,0 +1,32 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.custom-carousel-img {
+	max-width: 100%;
+	height: 550px;
+	object-fit: cover;
+}
+.custom-card-img {
+	max-width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+.custom-main-padding {
+	padding-bottom: 200px;
+}
+.custom-card-body-height {
+	height: 100px;
+}
+.custom-focus{ transition: 0.3s; }
+.custom-focus:hover{ 
+  transform: scale(1.2);
+}
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* 높이를 원하는대로 설정하십시오 */
+  background-color: blue; /* 배경색이 필요한 경우 */
+  z-index: 99999; /* 다른 요소 위에 표시하기 위해 높은 z-index 값을 설정 */
+}

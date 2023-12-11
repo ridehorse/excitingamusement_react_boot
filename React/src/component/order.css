@@ -1,0 +1,97 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 1400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td:first-child,
+th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+td:last-child,
+th:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+button[id="buy-btn"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[id="buy-btn"]:hover {
+  background-color: #45a049;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 350px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.product .name {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.product .price {
+  font-weight: bold;
+}
+
+.minus,
+.plus {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background-color: #ccc;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.numbox {
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  width: 50px;
+  height: 30px;
+}
+
+tfoot {
+  left: 50%;
+  width: 100%;
+}
